@@ -1,0 +1,9 @@
+.tarjeta{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    width: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}

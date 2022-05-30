@@ -1,0 +1,27 @@
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.one{
+    color: white;
+    margin: 0 20px;
+}
+
+
+.izq, .dere{
+    color: rgb(28 28 28);
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding:5px;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+}

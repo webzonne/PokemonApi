@@ -1,0 +1,30 @@
+
+.content h1{
+    color: rgb(255, 244, 31);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.cargando{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.galery{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    width: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}

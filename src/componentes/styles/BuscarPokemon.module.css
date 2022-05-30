@@ -1,0 +1,13 @@
+.entrada{
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.entrada input{
+    outline: none;
+    user-select: none;
+}
+
+.entrada p{
+    color: white;
+}

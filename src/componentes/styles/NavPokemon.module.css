@@ -1,0 +1,12 @@
+nav{
+    background-color: black;
+    padding: 40px;
+}
+
+h1{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 64px;
+    color: rgb(255, 244, 31);
+    text-align: center;
+}
