@@ -425,3 +425,10 @@
     }
 }
 
+@media (max-width:500px){
+    .pokemonimg{
+        top:-166px;
+    }
+}
+
+
