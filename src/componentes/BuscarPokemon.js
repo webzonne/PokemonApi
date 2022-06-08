@@ -11,13 +11,14 @@ function BuscarPokemon(){
 
     function DetectorBuscar(e){
         setbsucar(e.target.value.toLowerCase());
+        console.log(buscar);
     }
 
     const ClickBuscar = async (e) =>{
         const data = await ObtenerPokemon(buscar);
         setpokemon(data);
     }
-
+    console.log(buscar);
     return(
         <div>
             <div className={style.entrada}>
@@ -31,8 +32,7 @@ function BuscarPokemon(){
            key={pokemon.name}
            name={pokemon.name}
            picture={pokemon.sprites.front_default}
-           />
-            :null}
+           />:null}
         </div>
     );
 };

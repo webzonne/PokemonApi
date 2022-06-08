@@ -1,14 +1,25 @@
+.content{
+    background: #b7baca;
+}
 
-.content h1{
-    color: rgb(255, 244, 31);
+.logodiv{
     text-align: center;
+    padding-top: 25px;
+}
+.content h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 60px;
     margin-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 54px;
 }
 
 .contenedor{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 230px);
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, 351px);
+    gap: 55px;
     padding: 10px;
     justify-content: center;
 }

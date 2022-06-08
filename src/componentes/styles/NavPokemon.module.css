@@ -1,12 +1,87 @@
 nav{
-    background-color: black;
-    padding: 40px;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  margin: 0 50px;
 }
 
-h1{
-    font-family: Montserrat;
-    font-weight: 700;
-    font-size: 64px;
-    color: rgb(255, 244, 31);
+.divlogo{
+  width: 65%;
+  cursor: pointer;
+}
+.divsearch{
+    width: 35%;  
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.divform{
+  width: 80%;
+}
+.divinput{
+  max-width: 286px;
+  position: relative;
+}
+.divinput input{
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    padding: 3px 10px;
+}
+.logosearch{
+  position: absolute;
+  right:4px;
+  top:1px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.logomenu{
+  cursor: pointer;
+}
+
+@media (max-width:800px){
+  nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    margin: 0 50px;
+  }
+  .divlogo{
+    width:100%;
+    margin: auto;
     text-align: center;
+    cursor: pointer;
+    margin-bottom:90px;
+  }
+
+  .divsearch{
+    width:55%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+  .divform{
+    width:100%;
+    margin: 0 10px;
+  }
+
+  .divinput{
+    max-width:400px;
+    min-width:250px;
+    position: relative;
+  }
+
+}
+
+@media (max-width:510px){
+  .divsearch{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
 }

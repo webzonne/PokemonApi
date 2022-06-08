@@ -1,14 +1,22 @@
 import './App.css';
-import BuscarPokemon from './componentes/BuscarPokemon';
+import { Routes, Route} from "react-router-dom";
 import GaleryPokemon from './componentes/GaleryPokemon';
-import NavPokemon from './componentes/NavPokemon';
+import MainPokemon from './componentes/MainPokemon';
 
 function App() {
+  
   return (
     <div>
-    <NavPokemon />
-    <BuscarPokemon />
-    <GaleryPokemon />
+    <header>
+    <main>
+    <Routes>
+        <Route path="/pokemones" element={<GaleryPokemon/>} />
+        
+          <Route path="/" element={<MainPokemon/>} />
+        
+    </Routes>
+     </main>
+    </header>
     </div>
   )
 }

@@ -1,0 +1,427 @@
+.tarjetafire{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgba(255, 0, 0, 0.9) 100%);
+}
+
+.tarjetaelectric{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgba(255, 227, 18, 0.9) 100%); 
+}
+.tarjetawater{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgba(18, 176, 255, 0.9) 100%); 
+}
+.tarjetapoison{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgba(156, 19, 161, 0.9) 100%); 
+}
+.tarjetaground{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgba(235, 166, 81, 0.94) 100%); 
+}
+.tarjetabug{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgba(76, 192, 148, 0.94) 100%); 
+}
+.tarjetagrass{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgba(25, 123, 8, 0.94) 100%); 
+}
+
+.tarjetanormal{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgb(231, 210, 179) 100%); 
+}
+.tarjetafairy{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgb(245, 193, 223) 100%); 
+}
+.tarjetarock{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgb(87, 87, 87) 100%); 
+}
+.tarjetafighting{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgb(232, 124, 24) 100%); 
+}
+.tarjetapsychic{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgb(40, 15, 223) 100%); 
+}
+
+.tarjetaghost{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgb(0, 0, 0) 100%); 
+}
+.tarjetaice{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgb(0, 133, 249) 100%); 
+}
+
+.tarjetadragon{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgb(250, 169, 83) 100%); 
+}
+.tarjetadark{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgb(29, 4, 52) 100%); 
+}
+.tarjetasteel{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgb(159, 175, 184) 100%); 
+}
+
+/*TERMINA COLORES DE TIPOS DE POKEMONES*/
+.tarjetadescription{
+    width: 297px;
+    height: 270px;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+
+}
+
+.title{
+    font-size:16;
+    font-weight: 700;
+    text-align: center;
+}
+
+.pokemonimg{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top:-140px;
+}
+
+.barrafire{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background: linear-gradient(0deg, #FF0000, #FF0000);
+}
+.barraelectric{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background: #ffff12e6;
+}
+.barrawater{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background: #12b0ffe6
+}
+
+.barrapoison{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background: #9c13a1e6;
+}
+.barraground{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background: #eba651f0;
+}
+.barrabug{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background: #4cc094f0;
+}
+.barragrass{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background: #197b08e6;
+}
+.barranormal{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background: #f7dab0f0;
+}
+.barrarock{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background: #575757f0;
+}
+.barrafighting{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background: #e87c18f0;
+}
+.barrapsychic{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background: #280fdff0;
+}
+.barraghost{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background: black;
+}
+.barraice{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background: #0085f9f0;
+}
+.barradragon{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background: #faa953f0;
+}
+.barradark{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background:#1d0434f0;
+}
+.barrasteel{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background:#9fafb8f0;
+}
+
+
+.titledes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.titledes p{
+    font-weight: 700;
+    font-size: 15px;
+    color: #3E3D3D;
+}
+.titledes span{
+    font-weight: 500;
+    color: black;
+}
+.subtitledes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    width: 80%;
+    padding: 10px 0;
+    margin: auto;
+}
+.subtitledes p{
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0;
+    color: #3E3D3D;
+}
+
+.subtitledes span{
+    font-weight: 300;
+}
+
+@media (max-width:800px){
+    .pokemonimg{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top:-140px;
+        width: 158px!important;
+    }
+}
+

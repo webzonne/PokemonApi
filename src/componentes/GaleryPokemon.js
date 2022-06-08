@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import style from './styles/Galery.module.css';
 import { EnlacePokemon, ObtenerPokemones } from "./ObtenerPokemon";
 import PokePage from './PokePage';
+import TarjetaPokemon from "./TarjetaPokemon";
+import logo from '../img/logo-pokemon.png';
 
 function GaleryPokemon(){
 
@@ -44,6 +46,10 @@ function GaleryPokemon(){
     return(
         <div>
             <div className={style.content}>
+                <div className={style.logodiv}>
+                    <a href="/"><img  width="200" height="auto" src={logo} alt="logo"/></a>
+                </div>
+                
                 <h1 className={style}>Galeria</h1>
 
                 <PokePage
@@ -61,10 +67,21 @@ function GaleryPokemon(){
                 (<div className={style.contenedor}>
                         {pokemones.map((e)=>{
                                 return(
-                                <div key={e.name} className={style.galery}>
-                                    <img src={e.sprites.front_default} alt={e.name} />
-                                    <p>{e.name}</p>
-                                </div> 
+                                // {<div key={e.name} className={style.galery}>
+                                //     <img src={e.sprites.front_default} alt={e.name} />
+                                //     <p>{e.name}</p>
+                                // </div> }
+                                <TarjetaPokemon
+                                key={e.name}
+                                name={e.name}
+                                peso={e.weight}
+                                altura={e.height}
+                                tipo={e.types[0].type.name}
+                                picture={e.sprites.other.home.front_default}
+                                hp={e.stats[0].base_stat}
+                                ataque={e.stats[1].base_stat}
+                                defensa={e.stats[2].base_stat}
+                                />
                             )
                             
                         })}

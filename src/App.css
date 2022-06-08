@@ -1,11 +1,7 @@
 *{
   padding: 0;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
-body{
-  background-color: #282c34;
-}
-h1{
-  color: white;
-  text-align: center;
-}
+
+

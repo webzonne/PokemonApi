@@ -1,0 +1,84 @@
+.contentmain{
+    display: flex;
+    color: black;
+    margin: 0 50px;
+}
+.text{
+    padding-top: 163px;
+    width: 63%;
+}
+.text h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.text p{
+    margin-bottom: 50px;
+}
+.text .divbutton{
+    max-width: 220px;
+}
+.text button{
+    color: white;
+    background: black;
+    border: none;
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    box-shadow: -4px 8px 6px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    transition: all .3s ease-in-out;
+}
+.text button:hover{
+    transform: scale(1.09);
+}
+.fondomain{
+    background: url("/src/img/fondo-header.png");
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    position: relative;
+    height: 100vh;  
+}
+
+@media (max-width:800px){
+    .contentmain{
+        display: flex;
+        flex-direction: column-reverse;
+        color: black;
+        margin: 50px auto;
+    }
+    .image{
+        text-align: center;
+        padding-left: 31px;
+    }
+    .image img{
+        width: 350px;
+    }
+    .text{
+        padding-top:25px;
+        width:80%;
+        margin: auto;
+        text-align: center;
+    }
+    .text .divbutton{
+        max-width: 220px;
+        margin: auto;
+    }
+    .fondomain{
+        background: url("/src/img/tablet.png");
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        position: relative;
+        height: 100vh;  
+    }
+}
+
+@media (max-width:368px){
+    .image img{
+        width: 272px;
+    }
+    .text h1{
+        font-size: 32px;
+        font-weight: 800;
+    }
+}
