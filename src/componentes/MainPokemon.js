@@ -5,6 +5,7 @@ import { useState} from 'react';
 import style from './styles/MainPokemon.module.css';
 import { ObtenerPokemon } from './ObtenerPokemon';
 import TarjetaPokemon from './TarjetaPokemon';
+import { Link } from 'react-router-dom';
 //import BuscarPokemon from './componentes/BuscarPokemon';
 
 function MainPokemon() {
@@ -33,7 +34,7 @@ function MainPokemon() {
                 <p>favoritos los consigues aqui en este portal a tu disposicion</p>
                 <div className={style.divbutton}>
                     
-                <a href="/PokemonApi/pokemones"><button>Pokemones</button></a>
+                <Link to="/Pokemones"><button>Pokemones</button></Link>
                   
                 </div>
                 
