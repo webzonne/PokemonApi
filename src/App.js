@@ -10,7 +10,7 @@ function App() {
     <header>
     <main>
     <Routes>
-        <Route path="/pokemon-api/pokemones" element={<GaleryPokemon/>} />
+        <Route path="/PokemonApi/pokemones" element={<GaleryPokemon/>} />
         
           <Route path="/PokemonApi" element={<MainPokemon/>} />
         
