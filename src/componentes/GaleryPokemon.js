@@ -47,7 +47,7 @@ function GaleryPokemon(){
         <div>
             <div className={style.content}>
                 <div className={style.logodiv}>
-                    <a href="/"><img  width="200" height="auto" src={logo} alt="logo"/></a>
+                    <a href="/PokemonApi"><img  width="200" height="auto" src={logo} alt="logo"/></a>
                 </div>
                 
                 <h1 className={style}>Galeria</h1>

@@ -33,7 +33,7 @@ function MainPokemon() {
                 <p>favoritos los consigues aqui en este portal a tu disposicion</p>
                 <div className={style.divbutton}>
                     
-                <a href="/pokemones"><button>Pokemones</button></a>
+                <a href="/pokemon-api/pokemones"><button>Pokemones</button></a>
                   
                 </div>
                 
