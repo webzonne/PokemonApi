@@ -420,14 +420,8 @@
         left: 0;
         right: 0;
         margin: auto;
-        top:-140px;
-        width: 158px!important;
-    }
-}
-
-@media (max-width:500px){
-    .pokemonimg{
         top:-166px;
+        width: 158px!important;
     }
 }
 
