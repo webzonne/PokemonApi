@@ -172,6 +172,16 @@
     position: relative;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgb(159, 175, 184) 100%); 
 }
+.tarjetaflying{
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    color: black;
+    width: 322px;
+    height: 437px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 59.37%, rgb(159, 175, 184) 100%); 
+}
 
 /*TERMINA COLORES DE TIPOS DE POKEMONES*/
 .tarjetadescription{
@@ -378,6 +388,17 @@
     height: 3px;
     background:#9fafb8f0;
 }
+.barraflying{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    width: 266px;
+    height: 3px;
+    background:#9fafb8f0;
+}
 
 
 .titledes{
@@ -424,5 +445,4 @@
         width: 158px!important;
     }
 }
-
 

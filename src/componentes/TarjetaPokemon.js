@@ -71,6 +71,11 @@ function TarjetaPokemon(props){
                                                                     if(props.tipo==="steel"){
                                                                         tipo="tarjetasteel";
                                                                         barra="barrastreel";
+                                                                    }else{
+                                                                        if(props.tipo==="flying"){
+                                                                            tipo="tarjetaflying";
+                                                                            barra="barraflying";
+                                                                        }
                                                                     }
                                                                 }
                                                             }
