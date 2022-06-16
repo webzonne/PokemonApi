@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PokemonApi/static/css/main.4a6692c1.css",
-    "main.js": "/PokemonApi/static/js/main.c1d6bcf6.js",
+    "main.css": "/PokemonApi/static/css/main.a78012e4.css",
+    "main.js": "/PokemonApi/static/js/main.17b1e73f.js",
     "static/media/Vitrebel.png": "/PokemonApi/static/media/Vitrebel.fe7857c8cd059194bcc1.png",
     "static/media/logo-pokemon.png": "/PokemonApi/static/media/logo-pokemon.7aed586e0e5d42b74571.png",
     "static/media/fondo-header.png": "/PokemonApi/static/media/fondo-header.719e1c9129e123c5101a.png",
     "index.html": "/PokemonApi/index.html",
-    "main.4a6692c1.css.map": "/PokemonApi/static/css/main.4a6692c1.css.map",
-    "main.c1d6bcf6.js.map": "/PokemonApi/static/js/main.c1d6bcf6.js.map"
+    "main.a78012e4.css.map": "/PokemonApi/static/css/main.a78012e4.css.map",
+    "main.17b1e73f.js.map": "/PokemonApi/static/js/main.17b1e73f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a6692c1.css",
-    "static/js/main.c1d6bcf6.js"
+    "static/css/main.a78012e4.css",
+    "static/js/main.17b1e73f.js"
   ]
 }
