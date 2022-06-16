@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 //import BuscarPokemon from './componentes/BuscarPokemon';
 
 function MainPokemon() {
+
   const [chance, setchance] = useState();
   const [data, setdata] = useState();
   let fvitrebel=useRef();
@@ -21,20 +22,21 @@ function MainPokemon() {
     const datos = await ObtenerPokemon(chance);
     setdata(datos);
   }
-
   return(
     <div className={style.fondomain}>
         <NavPokemon
       cambio={showchance}
       click={captura}
+      val={setchance}
+      prueba={chance}
       />
        <div className={style.contentmain}>
             <div className={style.text}>
-                <h1>TODOS LOS POKEMONES</h1>
+                <h1>TODOS LOS POKÉMON</h1>
                 <p>favoritos los consigues aqui en este portal a tu disposicion</p>
                 <div className={style.divbutton}>
                     
-                <Link to="/Pokemones"><button>Pokemones</button></Link>
+                <Link to="/Pokemones"><button>Pokémon</button></Link>
                   
                 </div>
                 

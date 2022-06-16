@@ -1,6 +1,6 @@
 nav{
   display: flex;
-  align-items: center;
+  align-items: baseline;
   padding-top: 80px;
   margin: 0 50px;
 }
@@ -12,7 +12,7 @@ nav{
 .divsearch{
     width: 35%;  
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content:space-between;
 }
 
@@ -38,6 +38,40 @@ nav{
   background: none;
 }
 
+ /*TABLET*/
+ .sugerencia{
+  overflow: hidden;
+  height: 400px;
+  position: absolute;
+  width: 100%;
+  border-radius:5px;
+  z-index: 100;
+}
+.tabla td:nth-child(2){
+  text-align: right;
+}
+tr{
+  background:rgba(227, 227, 227, 0.647);
+  border-style:none!important;
+}
+tbody{
+  border-style:none!important;
+}
+tr{
+  cursor: pointer;
+ 
+}
+tr:hover{
+  border:1px solid rgba(255, 0, 0, 0.543);
+}
+td{
+  width:50%;
+  vertical-align:middle;
+  text-align: center;
+  border-style:none!important;
+}
+/*TERMINA TABLER*/
+
 .logomenu{
   cursor: pointer;
 }
@@ -45,7 +79,7 @@ nav{
 @media (max-width:800px){
   nav{
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     flex-direction: column;
     padding-top: 80px;
     margin: 0 50px;
@@ -59,13 +93,13 @@ nav{
   }
 
   .divsearch{
-    width:55%;
+    width:100%;
     display:flex;
-    align-items: center;
+    align-items:flex-start;
     justify-content:center;
 }
   .divform{
-    width:100%;
+    width:63%;
     margin: 0 10px;
   }
 
@@ -81,7 +115,10 @@ nav{
   .divsearch{
     width:100%;
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content:center;
+}
+  .divform{
+  width:auto
 }
 }
