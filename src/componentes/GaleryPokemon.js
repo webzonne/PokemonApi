@@ -21,6 +21,7 @@ function GaleryPokemon(){
                 const promises = data.results.map(async(p)=>{
                     return await EnlacePokemon(p.url);
                 })
+                console.log(promises);
                 const results = await Promise.all(promises);
                 setpokemones(results);
                 setloading(false);

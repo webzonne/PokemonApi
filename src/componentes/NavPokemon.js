@@ -12,18 +12,29 @@ function NavPokemon(props){
                 <div className={style.divlogo}>
                 <img  width="200" height="auto" src={logo} alt="logo"/>
                 </div>
-                {/* {BARRA DE BUSQUEDA} */}
+                
                 <div className={style.divsearch}>
+                    {/* {BARRA DE BUSQUEDA} */}
                     <div className={style.divform}>
                         <form>
                             <div className={style.divinput}>
-                            <input onChange={props.cambio} placeholder="Buscar.." type="text"/>
-                            <button onClick={props.click} type="submit" className={style.logosearch}>
-                                <img  src={logosearch} alt="logo-search" />
-                            </button>
-                            
+                                <input onChange={props.cambio} placeholder="Buscar.." type="text"/>
+                                <button onClick={props.click} type="submit" className={style.logosearch}>
+                                    <img  src={logosearch} alt="logo-search" />
+                                </button>
                             </div>
                         </form>
+                        {/*SUGERENCIAS */ }
+                        <div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>nombre</td>
+                                        <td>imagen</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     <div className={style.logomenu}>
                         <img src={menu} alt="manu"/>
